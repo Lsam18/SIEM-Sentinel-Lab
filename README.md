@@ -36,7 +36,7 @@ In the provided demonstration, Azure Sentinel is configured to receive telemetry
 - **ipgeolocation.io:** Utilized for the IP Address to Geolocation API, enriching the logs with geographical data.
 
 ## Screenshots
-### Attacks from Pakistan and Sri Lanka
+### Attacks from Pakistan and Sri Lanka (My own Attempts - for testing purposes) 
 
 <p align="center">
 <img src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/dd2d03e0-6e9b-4bc2-9f3d-c594a92a9421"/>

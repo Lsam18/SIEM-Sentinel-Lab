@@ -13,8 +13,7 @@ look up the attackers Geolocation information and plot it on an Azure Sentinel M
 <br />
 
 <p align="center">
-![WhatsApp Image 2024-05-10 at 11 41 57](https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/a17335bc-3b8a-47d6-aa7f-23fffe7d93ba)
-
+<img width="1440" alt="Screenshot 2024-05-09 at 18 26 10" src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/3dbfda17-3858-4ffa-91cc-2644f20f711c">
 
 </p>
 

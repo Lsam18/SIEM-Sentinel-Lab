@@ -60,6 +60,13 @@ In the provided demonstration, Azure Sentinel is configured to receive telemetry
 3. Enhancing visualization capabilities for better insights into attack patterns.
 4. Developing automated response mechanisms to mitigate detected threats.
 
+## Contribution
+Contributions to this project are welcome. Feel free to fork the repository, make improvements, and submit pull requests.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+
 
 <!--
  ```diff

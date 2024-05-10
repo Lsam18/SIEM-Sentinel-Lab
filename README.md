@@ -1,43 +1,59 @@
-# SIEM-Sentinel-Lab
-Failed RDP (Remote Desktop Protocol) to IP Geolocation Information
+# Security Information and Event Management (SIEM) - Sentinel-Lab
 
-<h2>Description</h2>
-<b>The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
-</b>
-<br />
-<br />
-The script is used in this demo where I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot.
-We will observe live attacks (RDP Brute Force) from all around the world. I will use a custom PowerShell script to
-look up the attackers Geolocation information and plot it on an Azure Sentinel Map!
-<br />
-<br />
+## Overview
+This repository contains a PowerShell script designed to sift through Windows Event Logs, pinpointing failed Remote Desktop Protocol (RDP) attacks and utilizing a third-party API to gather geographical data about the attackers' locations.
 
-<p align="center">
-<img width="1440" alt="Screenshot 2024-05-09 at 18 26 10" src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/3dbfda17-3858-4ffa-91cc-2644f20f711c">
+The script powers a demonstration where Azure Sentinel (SIEM) is set up, connected to a live virtual machine acting as a honeypot. By monitoring live attacks, particularly RDP brute force attempts, the script dynamically fetches and visualizes the attackers' geolocation information on an Azure Sentinel Map.
 
-</p>
+## Project Components
+1. **PowerShell Script**: The project utilizes a PowerShell script to extract RDP failed logon events from Windows Event Viewer. These events are crucial indicators of potential brute force attacks on systems.
+   
+2. **Azure Sentinel**: Azure Sentinel is a cloud-native SIEM and Security Orchestration, Automation, and Response (SOAR) solution provided by Microsoft. It collects and analyzes security data across an organization's entire hybrid environment, including devices, users, applications, and infrastructure. Azure Sentinel employs advanced analytics and machine learning to detect and respond to threats effectively.
 
-<h2>Languages Used</h2>
+3. **ipgeolocation.io API**: The project integrates with the ipgeolocation.io API to enrich the extracted IP addresses from RDP failed logon events with geolocation data. This information helps in identifying the geographical origin of the attackers, enabling better threat analysis and response.
 
-- <b>PowerShell:</b> Extract RDP failed logon logs from Windows Event Viewer 
-
-<h2>Utilities Used</h2>
-
-- <b>ipgeolocation.io:</b> IP Address to Geolocation API
-
-<h2>Attacks from Pakistan and Sri Lanka coming in; Custom logs being output with geodata</h2>
 
 <p align="center">
-<img width="1440" alt="Screenshot 2024-05-09 at 18 26 10" src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/dd2d03e0-6e9b-4bc2-9f3d-c594a92a9421">
-
+<img src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/b202929d-e920-4467-b6d3-464646239b0a
+"/>
 </p>
 
-<h2>World map of incoming attacks after 24 hours (built custom logs including geodata)</h2>
-<img width="1440" alt="Screenshot 2024-05-09 at 21 00 44" src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/6800b776-e3ae-4d20-bbb4-7d42186d51d5">
+
+
+## Technologies Used
+- **PowerShell**: For scripting and automating the extraction of RDP failed logon events.
+- **Microsoft Azure**: Azure Sentinel is utilized as the SIEM platform.
+- **ipgeolocation.io**: Provides geolocation data for IP addresses.
+- **GitHub**: Hosting the project repository and documentation.
+- **Visual Studio Code**: For script development and testing.
+
+## Demonstration
+In the provided demonstration, Azure Sentinel is configured to receive telemetry from the honeypot VM, detecting and logging failed RDP login attempts. The PowerShell script continuously monitors these logs, extracting relevant information and querying the ipgeolocation.io API to determine the geographic origin of the attackers.
+
+## Languages Utilized
+- **PowerShell:** The core functionality of the script involves extracting RDP failed logon logs from Windows Event Viewer.
+
+## External Utilities
+- **ipgeolocation.io:** Utilized for the IP Address to Geolocation API, enriching the logs with geographical data.
+
+## Screenshots
+### Attacks from Pakistan and Sri Lanka
 
 <p align="center">
-
+<img src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/dd2d03e0-6e9b-4bc2-9f3d-c594a92a9421"/>
 </p>
+
+### World Map of Attacks After 24 Hours
+
+<p align="center">
+<img src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/6800b776-e3ae-4d20-bbb4-7d42186d51d5"/>
+</p>
+
+## Future Enhancements
+1. Implementing real-time alerts for anomalous activity.
+2. Integrating with other threat intelligence sources for deeper analysis.
+3. Enhancing visualization capabilities for better insights into attack patterns.
+4. Developing automated response mechanisms to mitigate detected threats.
 
 
 <!--
@@ -49,3 +65,4 @@ look up the attackers Geolocation information and plot it on an Azure Sentinel M
 @@ text in purple (and bold)@@
 ```
 --!>
+

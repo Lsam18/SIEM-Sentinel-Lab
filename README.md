@@ -51,7 +51,7 @@ In the provided demonstration, Azure Sentinel is configured to receive telemetry
 ### World Map of Attacks After 24 Hours
 
 <p align="center">
-<img src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/6800b776-e3ae-4d20-bbb4-7d42186d51d5"/>
+<img width="1440" alt="Screenshot 2024-05-10 at 14 09 08" src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/91530235-7cf9-4f78-81e8-7a579f6527ad">
 </p>
 
 ## Future Enhancements

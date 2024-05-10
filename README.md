@@ -42,6 +42,13 @@ In the provided demonstration, Azure Sentinel is configured to receive telemetry
 <img src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/dd2d03e0-6e9b-4bc2-9f3d-c594a92a9421"/>
 </p>
 
+### Attacks from Sri Lanka
+
+<p align="center">
+<img width="1440" alt="Screenshot 2024-05-09 at 18 39 31" src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/8344f9a6-38ab-4f5b-81de-7ba20657358d">
+</p>
+
+
 ### World Map of Attacks After 24 Hours
 
 <p align="center">

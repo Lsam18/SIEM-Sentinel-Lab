@@ -48,9 +48,6 @@ In the provided demonstration, Azure Sentinel is configured to receive telemetry
 <img width="1440" alt="Screenshot 2024-05-09 at 18 39 31" src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/91de6079-7f28-4569-8ef9-6afdeb7bb54a">
 </p>
 
-![WhatsApp Image 2024-05-10 at 12 30 31]()
-
-
 ### World Map of Attacks After 24 Hours
 
 <p align="center">

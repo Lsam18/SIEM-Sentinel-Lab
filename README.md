@@ -14,8 +14,7 @@ The script powers a demonstration where Azure Sentinel (SIEM) is set up, connect
 
 
 <p align="center">
-<img src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/b202929d-e920-4467-b6d3-464646239b0a
-"/>
+<img src="https://github.com/Lsam18/SIEM-Sentinel-Lab/assets/115799412/b202929d-e920-4467-b6d3-464646239b0a"/>
 </p>
 
 
